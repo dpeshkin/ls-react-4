@@ -36,14 +36,10 @@ class Switcher extends Component {
             );
           })}
         </ul>
-        {children.map((child, i) => {
-          if (i === this.state.selectedChild)
-            return (
-              <div className="component-wrapper" key={getNewId()}>
-                {child}
-              </div>
-            );
-        })}
+        <hr />
+        <div className="component-wrapper">
+          {children[this.state.selectedChild]}
+        </div>
       </div>
     );
   }
