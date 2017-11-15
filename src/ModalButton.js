@@ -1,8 +1,8 @@
-import {Component} from 'react';
+import React, { Component } from "react";
 
 class ModalButton extends Component {
   render() {
-    return null;
+    return <h1>Modal</h1>;
   }
 }
 
