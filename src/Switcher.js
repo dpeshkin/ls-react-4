@@ -31,7 +31,7 @@ class Switcher extends Component {
                 className="component-list__name"
                 onClick={this.handleChangeChild}
               >
-                {child.type.name}
+                {child.type.displayName || child.type.name}
               </li>
             );
           })}

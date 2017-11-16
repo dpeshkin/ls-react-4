@@ -1,16 +1,6 @@
 # Homework 4
 
 
-<li
-                data-id={i}
-                key={getNewId()}
-                className="component-list__name"
-                onClick={this.handleChangeChild}
-              >
-                {child.type.name}
-              </li>
-
-
 Скопируйте этот репозиторий.
 
 [Пример работы](http://5a0ad5aadf99536a88d36117.tycoon-moneys-57286.netlify.com).
